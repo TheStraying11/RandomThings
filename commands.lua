@@ -22,15 +22,6 @@ function commands.RTSell(...)
     end
 end
 
-function commands.RTLink(...)
-    local args = {...}
-    local id = select(7, GetSpellInfo(args[1]))
-    local link = GetSpellLink(id)
-    print(GetSpellInfo(args[1]))
-    print(link)
-    DEFAULT_CHAT_FRAME:AddMessage(link)
-end
-
 for command, func in pairs(commands) do
     _G["SLASH_"..command:upper().."1"] = "/"..command;
     SlashCmdList[command:upper()] = func;
