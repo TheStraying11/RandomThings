@@ -1,0 +1,9 @@
+## Interface: 90200
+## Title: RandomThings
+## Notes: Random commands and functions that don't fit in their own addon
+## Author: Zoë
+## Website: http://www.studiolucia.uk/wow/addons/randomthings
+## Version: 0.0.1
+
+main.lua
+commands.lua
